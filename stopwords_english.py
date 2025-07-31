@@ -9,3 +9,4 @@ lista_stopwords = stopwords.words('english')
 
 #imprimir la lista de stopwords
 print(lista_stopwords)
+
