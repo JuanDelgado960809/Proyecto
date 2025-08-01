@@ -19,11 +19,18 @@ from nltk.probability import FreqDist
 # Definimos un texto en español que queramos analizar
 
 texto = """
+Somos campistas del programa Inteligencia Artificial nivel explorador basico, pertenecemos al grupo 10, el cual esta 
+conformado por:
 Mi Nombre es Juan David Delgado Macias actualmente laboro en una empresa distribuidora de productos farmaceuticos,
 mi trabajo consiste en la elaboracion de propuestas para contratos de dispensacion, atencion de incidentes TIC,
 mi pasatiempo favorito esta en viajar, compartir con mi familia y descansar.
-
-Mi compañero"""
+Mi compañero es Carlos Eduardo Hernandez Piedrahita actualmente labora en una empresa de desarrollo de Software y 
+lidera proyectos de desarrollo, su pasatiempo favorito es programar y compartir tiempo en familia.
+La compañera Kathiuska Del Carmen Mangones Ramos actualmente se desempeña como analista de datos y su pasatiempo 
+es leer, hacer deporte y compartir en familia.
+Y el ultimo compañero Juan Carlos Quintero Salcedo es estudiante de ingeniera de sistemas, su pasatiempo favorito 
+es programar, pasear y descanasar.
+"""
 
 # Tokenización: Convertimos el texto en una lista de palabras individuales
 palabras = word_tokenize(texto, language= 'spanish')
